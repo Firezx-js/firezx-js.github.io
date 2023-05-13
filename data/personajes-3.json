@@ -1,0 +1,29 @@
+{
+    "title" : "PROTAGONISTAS",
+    "caracter": [
+        {
+          "nombre": "Tanjiro Kamado",
+          "info": "Edad: 15",
+          "img" : "img/tanjiro.jpg",
+          "descripcion": "Un joven bondadoso y compasivo cuya familia fue atacada y asesinada por demonios. Busca convertirse en un cazador de demonios para encontrar una cura para su hermana menor Nezuko, quien fue transformada en un demonio después del ataque."
+        },
+        {
+          "nombre": "Nezuko Kamado",
+          "info": "Edad: 14",
+          "img" : "img/nezuko.jpg",
+          "descripcion": "La hermana menor de Tanjiro, que fue convertida en un demonio después del ataque a su familia. A pesar de su transformación, mantiene parte de su humanidad y su amor por su hermano."
+        },
+        {
+          "nombre": "Zenitsu Agatsuma",
+          "info": "Edad: 16",
+          "img" : "img/zenitsu.jpg",
+          "descripcion": "Un cazador de demonios temeroso y cobarde, que solo puede usar una técnica de respiración. A pesar de su cobardía, es capaz de enfrentarse a sus miedos y proteger a sus amigos cuando es necesario."
+        },
+        {
+          "nombre": "Inosuke Hashibira",
+          "info": "Edad: 16",
+          "img" : "img/inosuke.jpg",
+          "descripcion": "Un cazador de demonios salvaje y agresivo que fue criado por jabalíes. A pesar de su comportamiento rudo, tiene un gran corazón y está dispuesto a proteger a sus amigos con su vida."
+        }
+    ]
+}

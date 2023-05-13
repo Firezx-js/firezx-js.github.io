@@ -1,0 +1,46 @@
+{
+    "title" : "LUNAS SUPERIORES",
+    "caracter" :[
+    {
+        "nombre" : "Kokushibo",
+        "info" : "Luna Superior Uno",
+        "img" : "img/Kokushibo.jpg",
+        "descripcion" : "Es el más poderoso de todas las lunas superiores y antes de convertirse en demonio era un cazador de demonios."
+    },
+
+    {
+        "nombre" : "Doma",
+        "info" : "Luna Superior Dos",
+        "img" : "img/Doma.jpg",
+        "descripcion" : "Tiene la habilidad de poder regenerarse y utiliza un técnica de sangre demoniaca con la cual puede manipular el Hielo."
+    },
+    
+    {
+        "nombre" : "Akaza",
+        "info" : "Luna Superior Tres",
+        "img" : "img/Akaza.jpg",
+        "descripcion" : "Cuando era humano se le conocía como Hakuji y es un demonio que conservó su apariencia adoptando la forma de un joven musculoso."
+    },
+
+    {
+        "nombre" : "Nakime",
+        "info" : "Luna Superior Cuatro",
+        "img" : "img/nakime.jpg",
+        "descripcion" : "Es la demonio del Biwa, en este caso solamente tiene un solo ojo y una de sus técnicas de sangre demoniaca se basa en el control de Fortaleza Dimensional Infinita."
+    },
+
+    {
+        "nombre" : "Gyokko",
+        "info" : "Luna Superior Cinco",
+        "img" : "img/Gyokko.jpg",
+        "descripcion" : "Se caracteriza por tener la habilidad de crear peces demoníacos que pueden lanzar agujas con veneno o se comen a su enemigo y también cambian de piel para modificar su apariencia."
+    },
+
+    {
+        "nombre" : "Kaigaku",
+        "info" : "Luna Superior Seis",
+        "img" : "img/Kaigaku.jpg",
+        "descripcion" : "Era un antiguo cazador de demonios que luego se convertiría en un ser demoníaco. Entre sus poderes están la respiración del Rayo de la segunda a la sexta postura."
+    }    
+]
+}

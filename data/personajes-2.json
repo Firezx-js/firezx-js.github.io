@@ -1,0 +1,59 @@
+{
+    "title" : "PILARES",
+    "caracter": [
+        {
+          "nombre": "Giyu Tomioka",
+          "img" : "img/giyu.jpg",
+          "info": "El pilar del agua.",
+          "descripcion": "Es un cazador de demonios muy poderoso y es el segundo Pilar más fuerte en la organización de cazadores de demonios. Como su nombre indica, su técnica se basa en el agua y puede utilizarla para crear ataques tanto defensivos como ofensivos."
+        },
+        {
+          "nombre": "Shinobu Kocho",
+          "img" : "img/shinobu.jpg",
+          "info": "La pilar del insecto.",
+          "descripcion": "Shinobu es conocida por su personalidad amable y alegre, pero también es astuta e inteligente. Su arma principal es una espada envenenada, y es capaz de crear venenos con diferentes efectos y niveles de potencia."
+        },
+        {
+          "nombre": "Kyojuro Rengoku",
+          "img" : "img/kyojuro.jpg",
+          "info": "El pilar del fuego.",
+          "descripcion" : "Kyojuro es un personaje de apariencia imponente y carisma sobresaliente, con una personalidad jovial y optimista. Es muy devoto a su trabajo como Pilar, y tiene una fuerte convicción de proteger a los débiles y eliminar a los demonios."
+        },
+        {
+          "nombre": "Mitsuri Kanroji",
+          "img" : "img/mitsuri.jpg",
+          "info": "La pilar del amor.",
+          "descripcion" :"Mitsuri es una chica amable, tímida y sentimental que tiene una gran habilidad en combate y usa una espada especial llamada Nichirin de color rosa. Su personalidad a menudo choca con su papel como Pilar, ya que suaviza su actitud para hacer amigos fácilmente, lo que hace que otros personajes a menudo la subestimen."
+        },
+        {
+          "nombre": "Tengen Uzui",
+          "img" : "img/tengen.jpg",
+          "info": "El pilar del sonido.",
+          "descripcion": "Es conocido como el Pilar del Sonido debido a su habilidad para detectar y controlar el sonido. Tiene una personalidad alegre y extrovertida, y suele ser un poco coqueto con las mujeres. A pesar de su apariencia extravagante y despreocupada, es un luchador extremadamente habilidoso y un guerrero dedicado."
+        },
+        {
+          "nombre": "Obanai Iguro",
+          "img" : "img/obanai.jpg",
+          "info": "El pilar de la serpiente.",
+          "descripcion": "Obanai es un hombre callado y tranquilo que se preocupa profundamente por sus compañeros, especialmente por Mitsuri Kanroji. Él tiene una personalidad aparentemente fría y distante, pero en realidad es muy leal y protector con sus amigos y es muy buen combatiente."
+        },
+        {
+          "nombre": "Sanemi Shinazugawa",
+          "img" : "img/sanemi.jpg",
+          "info": "El pilar del viento.",
+          "descripcion": "Él es el hermano mayor de Genya Shinazugawa y uno de los cazadores de demonios más experimentados y poderosos del Cuerpo de Cazadores de Demonios. Sanemi es conocido por su personalidad fría y desconfiada hacia los demás, así como por su actitud crítica y perfeccionista en todo lo que hace."
+        },
+        {
+          "nombre": "Gyomei Himejima",
+          "img" : "img/gyomei.jpg",
+          "info": "El pilar de la roca.",
+          "descripcion": "Gyomei es uno de los pilares más fuertes y resistentes de la organización. Es capaz de resistir el ataque de demonios muy poderosos y ha demostrado ser un luchador hábil y astuto. Además, es un hombre muy compasivo y protector, especialmente hacia los más vulnerables, lo que lo convierte en un personaje muy querido por los fans de Kimetsu no Yaiba."
+        },
+        {
+          "nombre": "Muichiro Tokito",
+          "img" : "img/muichiro.jpg",
+          "info": "El pilar de la niebla.",
+          "descripcion": "Es el más joven de los nueve pilares y ocupa el puesto del Pilar de la niebla. Tiene una personalidad amable y tímida, pero también es muy hábil en el combate y es considerado uno de los pilares más fuertes. Muichiro tiene una habilidad única para percibir la ubicación de los demonios y para prever sus movimientos en combate."
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{ 
+"lunas_superiores":[
+    {
+        "id" : 1,
+        "titulo" : "Las lunas superiores",
+        "img" : "img/lunas.png",
+        "descripcion" : 
+        "Las Lunas Superiores son los demonios más fuertes y poderosos del Ejército Demoníaco, cada uno con habilidades y destrezas únicas. Se les llama Lunas debido a los tatuajes en forma de luna creciente en sus cuellos que indican su posición en la jerarquía del Ejército Demoníaco. Cada Luna Superior tiene un número y un rango específico dentro de la organización. Los miembros más fuertes y de mayor rango son los más cercanos al líder del Ejército Demoníaco, Muzan Kibutsuji, y son temidos incluso por otros demonios."
+    }
+],
+
+"pilares": [
+    {
+        "id" : 2,
+        "titulo" : "Los pilares",
+        "img" : "img/pilares.png",
+        "descripcion" : 
+        "Los Pilares son un grupo de nueve espadachines hábiles y poderosos que trabajan bajo el Cuerpo de Cazadores de Demonios. Son la fuerza principal de los Cazadores de Demonios y están a cargo de liderar y organizar misiones para acabar con los demonios y proteger a la humanidad. Cada Pilar es el más fuerte de su respectiva área de especialización, y posee habilidades sobrenaturales y técnicas de respiración únicas que los hacen casi imbatibles en combate. Además, tienen una gran autoridad en la organización y son respetados y temidos por los demás cazadores de demonios. Los Pilares están liderados por el actual líder de la organización, quien es el espadachín más fuerte de todos ellos y es conocido como el Hashira."
+    }
+],
+
+"protagonistas": [
+    {
+        "id" : 3,
+        "titulo" : "Los protagonistas",
+        "img" : "img/protagonistas.png",
+        "descripcion" : 
+        "Los protagonistas de Kimetsu no Yaiba son un grupo de cazadores de demonios liderados por Tanjiro Kamado, el personaje principal de la serie. Los cazadores de demonios, también conocidos como espadachines, son guerreros que han sido entrenados para luchar contra demonios y proteger a la humanidad de sus ataques. El grupo liderado por Tanjiro está formado por otros personajes importantes, como su hermana Nezuko, que se convierte en demonio en el primer episodio de la serie y a quien Tanjiro intenta ayudar a recuperar su humanidad; Zenitsu, un joven espadachín muy asustadizo pero con una habilidad innata para la lucha; e Inosuke, un cazador de demonios salvaje y temperamental que siempre está buscando pelea. Juntos, estos personajes se enfrentan a diversos demonios y desafíos a lo largo de la serie, mientras intentan descubrir la verdad detrás de los demonios y encontrar una cura para Nezuko."
+    }
+]
+}

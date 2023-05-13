@@ -1,0 +1,33 @@
+{
+    "theme_color" : "#343434",
+    "background_color" : "#000000",
+    "display" : "fullscreen",
+    "scope" : "/parcial/",
+    "start_url" : "/parcial/index.html",
+    "name" : "Kimetsu no Yaiba App",
+    "short_name" : "Kimetsu App",
+    "description" : "App de Kimetsu no Yaiba con informacion principal.",
+    "icons" : [
+        {
+            "src": "icons/icon192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+
+}

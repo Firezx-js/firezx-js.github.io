@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="manifest" href="kimetsu.webmanifest">
+    <script src="https://kit.fontawesome.com/183567708a.js" crossorigin="anonymous"></script>
+    <link  rel="icon" href="img/icon.png" type="image/png"/>
+    <title>Kimetsu no Yaiba - App</title>
+</head>
+<body class="bg-black">
+
+<!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img class="img-fluid" src="img/logo.png" alt="logo" width="90">
+            </a>
+            <button class="btn btn-dark navbar-toggler border-0 px-2" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"
+              >
+            <img style="width: 30px" src="img/menu.png" alt="menu icon">
+            </button>
+            <div class="offcanvas offcanvas-start-lg bg-danger" tabindex="-1" id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel"
+              >
+              <div class="offcanvas-header d-flex d-lg-none">
+                <a class="navbar-brand" href="#">
+                  <img class="img-fluid" src="img/logo.png" alt="logo" width="100">
+                </a>
+                <a href="javascript:void(0)"
+                  class="text-reset p-0"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="close"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#FFFFFF"
+                    class="bi bi-x-circle"
+                    viewBox="0 0 16 16"
+                    >
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </a>
+              </div>
+              <div class="offcanvas-body p-lg-0 justify-content-end menu">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link mx-2" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-2" href="#anime">Anime</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-2" href="#personajes">Personajes</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </nav>
+
+<!-- INICIO -->
+    <header class="banner-image container-fluid">
+      <div class="container">
+        <div class="row vh-100">
+          <div class="col-12 col-sm-5 col-md-6 pt-5 pt-md-0 mt-5 mt-md-0 z-0 d-flex flex-column justify-content-center">
+            <h1 class="fw-bold text-light z-2">KIMETSU APP</h1>
+            <p class="pointer text-light">Explora el mundo de Demon Slayer ahora.</p>
+            <div class="d-flex">
+              <button type="button" class="btn btn-outline-light install">Descargar</button>
+              <button type="button" class="btn btn-outline-light share mx-2">Compartir</button>
+            </div>
+          </div>   
+      </div>
+    </div>    
+    </header>
+
+<!-- ANIME SECTION -->
+    <main id="anime" class="container bg-black">
+      <section class="row p-4 h_100 align-content-center align-items-center">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <h2>ANIME</h2>
+          <p class="texto">
+            Kimetsu no Yaiba es un manga y anime japonés que sigue la historia de Tanjiro Kamado, un joven que se convierte en cazador de demonios después de que su familia es asesinada por uno de ellos y su hermana Nezuko es convertida en demonio. Con la ayuda de otros cazadores de demonios, Tanjiro busca una cura para Nezuko mientras lucha contra otros demonios y se enfrenta a sus propios demonios internos. La serie presenta una emocionante acción y una trama emocionalmente cargada que ha ganado muchos fans en todo el mundo.</p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 text-center inosuke">
+          <img class="img-fluid inosuke" src="img/inosuke.png" alt="tanjiro_nezuko" width="">     
+        </div>
+      </section>
+    </main>
+
+<!-- PERSONAJES -->
+    <section id="personajes" class="container bg-black">
+      <div class="row p-4 h_100 align-content-center align-items-center">
+        <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+          <img class="img-fluid" src="img/personaje.png" alt="tanjiro_nezuko" width="">     
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <h2>PERSONAJES</h2>
+          <p class="texto">
+            La serie de anime y manga Kimetsu no Yaiba, también conocida como Demon Slayer, cuenta con una amplia variedad de personajes que han cautivado a los fans de todo el mundo. Desde los protagonistas Tanjiro Kamado y Nezuko Kamado, hasta los diferentes Pilares y Lunas Superiores del Cuerpo de Matademonios, cada personaje tiene su propia historia y habilidades únicas que contribuyen al emocionante mundo de la serie. En esta sección podrás conocer más sobre cada uno de ellos y sumergirte aún más en la increíble aventura de Kimetsu no Yaiba.</p>
+            <div class="row align-content-center align-items-center">
+              <a href="#lunas-superiores" id="btn-lunas-superiores" class="btn-personajes col-sm-12 col-lg-4 col-md-12">
+                LUNAS SUPERIORES
+              </a>
+              <a href="#pilares" id="btn-pilares" class="btn-personajes col-sm-12 col-lg-4 col-md-12">PILARES</a>
+              <a href="#protagonistas" id="btn-protagonistas" class="btn-personajes col-sm-12 col-lg-4 col-md-12">PROTAGONISTAS</a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container bg-black  p-4 section-pading">
+      <div id="lunas-superiores" class="personajes pt-1">
+        <div id="lunas-superiores-list">
+
+        </div>
+      </div>
+      <div id="pilares" class="personajes pt-1">
+        <div id="pilares-list">
+
+        </div>
+      </div>
+      <div id="protagonistas" class="personajes pt-1">
+        <div id="protagonistas-list">
+
+        </div>
+      </div>
+    </section>
+      <footer class="footer border-top py-4 mt-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="m-0 text-center text-light">
+                <p>
+                  &copy; <span class="text-info fw-bold">JUAN ARROYO</span> - DWN3AP - 2023 
+                </p>
+                <a href="https://www.facebook.com/" target="_blank" class="me-2"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAexJREFUSEutVe1NwzAQfSeVH5HqiLIAHYENKJPQERghmQBGYAU2aCeAEWABihKpEQJkZPtcn2M7LRL+kbr25T7ee3chFBYB0PYB8A/kLt6XvDirjC2BoI3vcD0ZTBrKYAT6a3bBvpx1uDGJjlfGgz8adrulns3uSesrEC1NhQRsK6VW+cBRBZkymQgD1/59t9Rns2cCzn1OxwOAIZLhJbuCoKHrHkF0Gwpm97aCemXVkBDqIUoCpPgOfb8BcG1uNPD0+f21XiwuPiJLUbEMl2ErVpExGPrev2P+tpWqG6u0TPXyXKgojhOQcsH2HICBaSulmuM68iQXtDd03RqES26XxoCjQSCNDQgGMnO0rWrl9jkspuCXuFsOI1EfDgJcCc25PhBZ+ADWVXiM87yp1EQFcWMHsZnzfd8/EHDFuVoFOVj0G4hezfaH6G4+n78UIUqkW7D0Kgoks4qy2o/n2MFlwrUYcF5FTGxb1ayiQmM6pyfOImM6dL0RkOc6yDTTXGPYeVzLeZzqNtdoMWN+7HOTenelcR2+B9xotgJmQKOt6tr2hV+lMZ6O64KsXAWlAJnqxVE2C1mZHBXHSU4/rLEwE1W464gDC5FqpOlJEI2zluMz1x4nTHk5XUo5sOuJT2mpi10n/MuS0owJ/wXKqPgh8INTzQAAAABJRU5ErkJggg=="/></a>
+                <a href="https://twitter.com/" target="_blank" class="me-2"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAoFJREFUSEuVVtFx2kAQfStgEhSdgtxA3IHlCuJUEKUCJxXYqSCmglCCO4hSQdxBcAe4AQvrZOMZA5u5k4Tu0J2Z8MGAZm/3vX17b0UEgPUX+h/f8ybSd9Y8RgdyALAjevFNFQI7gJI+befowVJBbBNsqnTF/C2oC/Q+jgNm4Vdp24CsFhVFMUmSZOkk1YBQMW+HwwsGMgJSgBcAXYdCTJWMj2WZvYvjvMVsMViV5WITBFkURXMfyJWUNwA+1lNhHZ8DSJnoexhFs12BlnklqzRg/gtgScCXUIibero6ylVVpQMV08tdp2NgTsy3myCYRSKaqwdWi1ZSmsM6e16vp0lytGxFVvQDol99zdQQEIjxAEI2FkKx1AytAk9S5gR83iVgTSAHUU7MC6bgFLz92TZGEzHYMPA7FCIzAdQFCCjui8loNDoebLcq4YcuqEHnHrdGiqYKYzqO46vu1hoMiuJ+8mY4Kmp0niZ7nzcaaIHFTJ9v74o53mqKWvQmfbNc97sPYkN0GkVibvqOpcFjpSdJCfR+v78uYc0xZea7MI6PXdbS0QFQlWVGhHMCZf/Tqf35t++BAW8l5RmAP25Nd2JqULsmMd89bzZp7QKWl9pj2hrfqpRXAH64injk/6QvpumchiHut02Hac8ZDGYgOn+VDfjbWMTXvik2RG4sgYBVKc8YuCBGZtuNNcAPYL4cx57k1pgCaHqvTOrEh6ZNr24srdeXYZIsDi1Cyw7VnydZfgXjDEQpGCfKCxh0S8CSiXK8vOThUbJwrtgGmS2zAde9Di1n8Sxvm7O56Twbzam7OSPdnj2w1K2b7N6xhzIYpBwvAAYDe5P7ivXeHvz7Xtv0P7p6Ki8HUgcuAAAAAElFTkSuQmCC"/></a>
+                <a href="https://www.instagram.com/" target="_blank" class="me-2"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAyhJREFUSEuVVktS20AQfW2JIjKaic0iW8wJcE4A2WQbc4BUmRtwA8wJUuyyA04AWWYVcwKUE8SVA1gwUiRSEe7UfGSP/KESreSZ6X6vX/c8mTB/CAAvfr70tuboypJbIH/jRQiz2TyxElsn9ajqpbU1rAfbRGFTSYQGQI1UptMeB+EZQH0i9H0SWsQ6yAmaECN5btFFLOJkXZUu3rIolRqC6NIlumPgAUDiJ/Xe+8TogHBozjOfRFJeLdRsVED4lWf9FvM9gLunqhp0u12d3D6bekBAOU17HIa3BBw8E72N4zipgxpNLpW6AtHgqfrT63Z3F8k3TFqR5x+JcM4zfqSqOkYY/gDzdVvKYT2PtlrHrlCPEyKaREIcLU9IrtSgRXSgAwPmZFvKL/nDw/sgCL4C+BkJsVeqbAzwXlvK/SaAY1hmGTNw0Rby1NwJAtJp2tkOw2/E6DdHgscM+syzmWoFwZsojq/LTAPgMBJiPjyNKSqyjIlxHkkxqlUpskzr2WPm4Y58fUtguGquGLhvC/HOSYBVgKUml5liOACNnGdq0ALdzJiPd6S89VtRPmZDEC79PSMRuQqc7F6TCQsAOdJMiywbAXzWFpKWTSRN086rMEwtofl53YPDSMgliVxHdQ8AnEdCjPSSBcCZr2k9FK43Kbnzer2uoC3EnJDXA1eBCbCMViVazFap/kWi+tbXY5opbWfzCnQ5RaYSgPYC5qEeTctUDZnoE4DvbSmO3MChMD3gQyOpZ3zz3pkxZVy0pTzVFWiANJ12tsOtsb6l+qC1BHN37sqqGuy62+4kXYzpWgClJgBNIs1qyWWdXMb4ZsxJPbK2+bWPmYvWi6TszR3Gt5jCWsWH31W1b3xoxX82GD4TinTaI2MVuI6kGK4FyPO8H1izG6OqTqJud7LB5zzegLH3cOuGgL42OxHHie3B0vfA6qiGwNyux9quCUis+L5w5r2W8shu80kk5JWP3jC7+ptsKpnNTkE6Ae2tpHULruGPTBjPiEbWppsyrn6Tl230hf8Bi6NaCjt1zYfQAFhs+iyaiCbRf5JwedckWqPNCms/rNF6G/wXN36+L8Beu54AAAAASUVORK5CYII="/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
